@@ -1,0 +1,188 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-de-la-historieta-de-la-pista-de-hockey-sobre-hielo-79995864.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.container {
+    background-color: aliceblue;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.logo {
+    height: 150px;
+    width: 150px;
+}
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+a {
+    height: 20%;
+}
+.container>header>nav {
+    display: flex;
+    gap: .5rem;
+}
+.nav {
+    border: 3px black solid;
+    border-radius: 4px;
+    padding: 3px;
+    background-color:black;
+    text-decoration: none;
+    color: white;
+}
+.active {
+    background-color: white;
+    color: black;
+    border: 3px black dashed;
+}
+a:hover {
+    color: orange;
+}
+.img1 {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    }
+.img1 img {
+    width: 100%;
+    height: 100%;
+}
+main {
+    padding-bottom: 5%;
+}
+footer {
+    text-align: center;
+    padding-bottom: 5%;
+}
+.content{
+    background-color: aliceblue;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content-2 {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-2>article {
+    width: 100%;
+    padding: 1rem 3rem 0 3rem;
+}
+
+.content>article {
+    padding: 10px;
+}
+
+.content-3>p {
+    padding: 10px;
+}
+
+main>h3 {
+    padding-bottom: 1rem;
+}
+
+.parrafo1 {
+    font-style:italic ;
+    padding-bottom: .5rem;
+}
+
+.parrafo2 {
+    font-style:oblique;
+    text-decoration: underline;
+}
+.tabla{
+    margin-left: 5rem;
+}
+tbody td{
+    padding: .3rem 1.9rem;
+}
+.centrado {
+    width: 90%;
+}
+.centrado p {
+    margin-top: 1rem;
+}
+.contactenos {
+    display: flex;
+    gap: 7rem;
+    margin-top: 1rem;
+}
+iframe{
+    border-radius: 50%;
+}
+.espacioarriba {
+    padding-top: 1rem;
+}
+.bold{
+    font-weight: bolder;
+}
+.negrita {
+    font-weight: bold;
+}
+.contenedor4{
+    width: 90%;
+    padding: 0 4rem;
+}
+.titulo{
+    text-align: center;
+}
+.content3>section>h3{
+    text-align: center;
+}
+.dt1{
+    text-align: center;
+}
+dt {
+    padding-top: 2rem;
+}
+dd>ol>li {
+    padding-top: 1rem;
+    list-style-position: inside;
+}
+.liend {
+    list-style-type: circle;
+    margin-left: 2.5rem;
+}
+.contenedor5 {
+    width: 60%;
+}
+.containerForm {
+    padding: 2rem;
+}
+fieldset {
+    padding: .5rem .5rem;
+    display: flex;
+    gap: 1rem;
+    border: none;
+}
+.contenedor-fields1, .contenedor-fields2, .contenedor-fields3{
+    display: flex;
+}
+
+.submit {
+    margin-left: 1rem;
+}
